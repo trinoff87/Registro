@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DACBA0C1FD8C868000863B4 /* WebServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DACBA0B1FD8C868000863B4 /* WebServices.m */; };
+		7DACBA0E1FD8CD59000863B4 /* fondoazul.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DACBA0D1FD8CD59000863B4 /* fondoazul.png */; };
 		A89EDB941FD7786400502DFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A89EDB931FD7786400502DFF /* AppDelegate.m */; };
 		A89EDB971FD7786400502DFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A89EDB961FD7786400502DFF /* ViewController.m */; };
 		A89EDB9A1FD7786400502DFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A89EDB981FD7786400502DFF /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		A89EDBA21FD7786400502DFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A89EDBA11FD7786400502DFF /* main.m */; };
 		A89EDBAC1FD7786400502DFF /* RegistroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A89EDBAB1FD7786400502DFF /* RegistroTests.m */; };
 		A89EDBB71FD7786400502DFF /* RegistroUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A89EDBB61FD7786400502DFF /* RegistroUITests.m */; };
+		E7EC7BCF65FE772FB71DCF95 /* libPods-Registro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5FDA0A3BD34A0BF08EBD80C /* libPods-Registro.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05C3A99D6892EC6CB0711226 /* Pods-Registro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Registro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Registro/Pods-Registro.debug.xcconfig"; sourceTree = "<group>"; };
+		775096CAF5CF42318D4974EA /* Pods-Registro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Registro.release.xcconfig"; path = "Pods/Target Support Files/Pods-Registro/Pods-Registro.release.xcconfig"; sourceTree = "<group>"; };
+		7DACBA0A1FD8C868000863B4 /* WebServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebServices.h; sourceTree = "<group>"; };
+		7DACBA0B1FD8C868000863B4 /* WebServices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebServices.m; sourceTree = "<group>"; };
+		7DACBA0D1FD8CD59000863B4 /* fondoazul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondoazul.png; sourceTree = "<group>"; };
 		A89EDB8F1FD7786400502DFF /* Registro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Registro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A89EDB921FD7786400502DFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A89EDB931FD7786400502DFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +59,7 @@
 		A89EDBB21FD7786400502DFF /* RegistroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RegistroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A89EDBB61FD7786400502DFF /* RegistroUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistroUITests.m; sourceTree = "<group>"; };
 		A89EDBB81FD7786400502DFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5FDA0A3BD34A0BF08EBD80C /* libPods-Registro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Registro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7EC7BCF65FE772FB71DCF95 /* libPods-Registro.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +88,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C664359E03007FE653C6AF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05C3A99D6892EC6CB0711226 /* Pods-Registro.debug.xcconfig */,
+				775096CAF5CF42318D4974EA /* Pods-Registro.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DACBA091FD8C836000863B4 /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				7DACBA0A1FD8C868000863B4 /* WebServices.h */,
+				7DACBA0B1FD8C868000863B4 /* WebServices.m */,
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		9E811A4E0448522E5175CA88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5FDA0A3BD34A0BF08EBD80C /* libPods-Registro.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A89EDB861FD7786300502DFF = {
 			isa = PBXGroup;
 			children = (
+				7DACBA091FD8C836000863B4 /* WebServices */,
 				A89EDB911FD7786400502DFF /* Registro */,
 				A89EDBAA1FD7786400502DFF /* RegistroTests */,
 				A89EDBB51FD7786400502DFF /* RegistroUITests */,
 				A89EDB901FD7786400502DFF /* Products */,
+				6C664359E03007FE653C6AF0 /* Pods */,
+				9E811A4E0448522E5175CA88 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +140,7 @@
 		A89EDB911FD7786400502DFF /* Registro */ = {
 			isa = PBXGroup;
 			children = (
+				7DACBA0D1FD8CD59000863B4 /* fondoazul.png */,
 				A89EDB921FD7786400502DFF /* AppDelegate.h */,
 				A89EDB931FD7786400502DFF /* AppDelegate.m */,
 				A89EDB951FD7786400502DFF /* ViewController.h */,
@@ -139,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A89EDBBB1FD7786400502DFF /* Build configuration list for PBXNativeTarget "Registro" */;
 			buildPhases = (
+				99F1D3B48D61DF9B68AC5C67 /* [CP] Check Pods Manifest.lock */,
 				A89EDB8B1FD7786300502DFF /* Sources */,
 				A89EDB8C1FD7786300502DFF /* Frameworks */,
 				A89EDB8D1FD7786300502DFF /* Resources */,
+				D1784A5AFBB23D269B8B94FE /* [CP] Embed Pods Frameworks */,
+				FE278C173F501F2311FF6A69 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,6 +283,7 @@
 			files = (
 				A89EDB9F1FD7786400502DFF /* LaunchScreen.storyboard in Resources */,
 				A89EDB9C1FD7786400502DFF /* Assets.xcassets in Resources */,
+				7DACBA0E1FD8CD59000863B4 /* fondoazul.png in Resources */,
 				A89EDB9A1FD7786400502DFF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +304,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		99F1D3B48D61DF9B68AC5C67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Registro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1784A5AFBB23D269B8B94FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Registro/Pods-Registro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE278C173F501F2311FF6A69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Registro/Pods-Registro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A89EDB8B1FD7786300502DFF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -267,6 +362,7 @@
 			files = (
 				A89EDB971FD7786400502DFF /* ViewController.m in Sources */,
 				A89EDBA21FD7786400502DFF /* main.m in Sources */,
+				7DACBA0C1FD8C868000863B4 /* WebServices.m in Sources */,
 				A89EDB941FD7786400502DFF /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +524,7 @@
 		};
 		A89EDBBC1FD7786400502DFF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05C3A99D6892EC6CB0711226 /* Pods-Registro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -441,6 +538,7 @@
 		};
 		A89EDBBD1FD7786400502DFF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 775096CAF5CF42318D4974EA /* Pods-Registro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

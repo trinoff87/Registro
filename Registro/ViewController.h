@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WebServices.h"
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *txtUser;
+@property (weak, nonatomic) IBOutlet UITextField *txtEmail;
+@property (weak, nonatomic) IBOutlet UITextField *txtPhone;
+@property (weak, nonatomic) IBOutlet UILabel *lblMessage;
 
 
 @end
